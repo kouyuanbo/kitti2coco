@@ -15,14 +15,21 @@ I can't find the code to convert kitti 2D detection dataset to coco format.So I 
 
 ```
 data_dir
-├── image_2
-├──────0000001.png
-├──────0000002.png
-├──────0000003.png
-└── label_2
-├──────0000001.txt
-├──────0000002.txt
-└──────0000003.txt
+├── kitti
+│   ├── image_2
+│   │   ├── 000000.png
+│   │   ├── 000001.png
+│   │   ├── 000002.png
+│   │   ├── 000003.png
+│   │   ├── 000004.png
+│   │   └── 000005.png
+│   └── label_2
+│       ├── 000000.txt
+│       ├── 000001.txt
+│       ├── 000002.txt
+│       ├── 000003.txt
+│       ├── 000004.txt
+│       └── 000005.txt
 ```
 
 **Second step : execute `split_datasets.py`. Then we can obtain the structure as follow:**
