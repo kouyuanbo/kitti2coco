@@ -1,0 +1,1 @@
+{"images": [{"id": 0, "file_name": "000003.png", "height": 375, "width": 1242}], "annotations": [{"id": 0, "image_id": 0, "category_id": 1, "bbox": [614.24, 181.78, 113.06999999999994, 102.98999999999998], "area": 11645.079299999992, "iscrowd": 0}], "categories": [{"id": 1, "name": "Car"}, {"id": 2, "name": "Pedestrian"}, {"id": 3, "name": "Cyclist"}]}
